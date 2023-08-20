@@ -1,0 +1,162 @@
+body
+{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+#home
+{
+    background: linear-gradient(rgba(214, 46, 51, 0.6),rgba(214, 46, 51, 0.6)),url("../img/events-heavenly-header.jpg");
+    height: 660px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.title-home
+{
+    transition: margin-left .5s;
+    padding: 16px;
+}
+#home h2
+{
+    text-align: center;
+   margin-top: 200px;
+    font-size: 50px;
+    font-weight: bolder;
+}
+#home p
+{
+    text-align: center;
+}
+#home span
+{
+    color: white !important;
+}
+
+#details 
+{
+    background-color: white;
+    
+}
+#details h3
+{
+    
+    cursor: pointer;
+}
+#details p
+{
+    background-color: #ccc;
+    padding: 10px;
+    display: none;
+   
+   
+}
+.bg_color
+{
+    background-color: rgba(214, 46, 51, 0.6);
+}
+
+#duration
+{
+    background: linear-gradient(rgba(214, 46, 51, 0.6),rgba(214, 46, 51, 0.6)),url("../img/invitation-2508607__340.jpg");
+    height: 330px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.duration_padding
+{
+    padding: 100px 0px  !important;
+}
+.col-sm-3 div
+{
+    padding: 50px;
+}
+#contact
+{
+    margin-top: 100px;
+}
+.padding_contact
+{
+    padding: 100px 0px
+}
+
+
+
+.social i
+{
+    margin-top: 20px;
+    margin-left: 9px;
+}
+
+.border-icon
+{
+    width: 43px;
+    height: 43px;
+    border: 1px solid #999;
+    transition: 1s;
+    cursor: pointer;
+}
+.border-icon:hover
+{
+    background-color: crimson;
+    color: white !important;
+    
+}
+.social i:hover
+{
+    color: white !important;
+}
+
+
+.form_input
+{
+    width: 90%;
+    height: 46px;
+    padding: 10px 16px !important;
+    font-size: 18px;
+    border-radius: 0% !important;
+}
+
+.form-textarea
+{
+    width: 90% !important;
+}
+.nav-bar
+{
+     height: 100%;
+     width: 0;
+     position: fixed;
+     z-index: 1;
+     top: 0;
+     left: 0;
+     background-color: #414658;
+     overflow-x: hidden;
+     transition: 0.5s;
+     padding-top: 60px;
+}
+.nav-bar button
+{
+
+    position: absolute;
+    top: 75px;
+    right: 25px;
+    font-size: 20px;
+    margin-left: 50px;
+    
+  
+   
+}
+.nav-bar a
+{
+    padding: 20px 8px 20px 32px;
+    text-decoration: none;
+    font-size: 20px;
+   cursor: pointer;
+    display: block;
+    transition: 0.3s;
+    color: white;
+}
+.nav-bar a:hover,
+.nav-bar a:focus {
+    color: rgba(214, 46, 51, 0.4);
+}
